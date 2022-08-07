@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    background-color: rgba(235, 235, 235, 0.671);
+}
+
+.container {
+    width: 100%;
+    max-width: 1460px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*ASOSIY STILLAR TUGADI*/
+
+.site-header-a {
+    color: #000;
+    text-decoration: none;
+}
+
+.site-header-a:hover {
+    color: red;
+}
+
+.site-header-a:active {
+    color: crimson;
+}
+
+.text-ded {
+    display: flex;
+    align-items: center;
+}
+
+.block-div {
+    display: block;
+}
+
+.text-div{
+    margin-left: 30px;
+}
+
+
+
+.spann {
+    position: sticky;
+    z-index: 2;
+    border: 2px solid coral;
+    background-color:coral;
+    width: 145px;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.span {
+    border: 2px solid #000;
+    background-color: #000;
+    width: 1370px;
+    margin-top: -4px;
+}
+
+.items-ul {
+    list-style-type: none;   
+}
+
+.items-inner {
+    margin-top: 20px;
+    border: 1px solid rgb(178, 175, 175);
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.item-p {
+    color: darkgray;
+}
+
+.hr {
+    margin-top: 5px;
+    color: darkgrey;
+}
+
+
+.eura{    
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.eura-p {
+    color: rgb(178, 175, 175);
+    margin-top: 6px;
+}
+
+.eura-h2 {
+    color: rgb(62, 58, 58);
+    margin-left: 5px;
+}
+
+.items-a {
+    text-decoration: none;
+    color: darkgrey;
+    border: 1px solid rgb(178, 175, 175);
+    padding: 3px;
+}
+
+.items-a:hover {
+    background-color:red ;
+    color: #fff;
+    border: 4px solid blue;
+}
+
+.items-a:active {
+    background-color: blue;
+    color: #fff;
+    border: 4px solid red;
+}
